@@ -138,7 +138,6 @@
         <p:confirmDialog widgetVar="deleteEmployeeDialog" showEffect="fade" width="300"
             message="Delete the employee?" header="Confirm" severity="warn">
             <p:commandButton value="Yes" icon="pi pi-check" actionListener="#{employeeView.deleteEmployee}"
-                process="@this" update=":form:delete-products-button"
                 oncomplete="PF('deleteEmployeeDialog').hide()"/>
             <p:commandButton value="No" type="button" styleClass="ui-button-secondary" icon="pi pi-times"
                 onclick="PF('deleteEmployeeDialog').hide()"/>
