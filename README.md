@@ -83,14 +83,15 @@ A modern web application for managing employee records, built with Java EE techn
 
 ## Application Walkthrough
 
-1. **Employee Listing**  
-   ![Employee List](https://example.com/employee-list.png)
+1. **Employee Listing**
+   
+   ![main](https://github.com/user-attachments/assets/1e4a4d2d-9de1-4817-bd88-fe384b509316)
 
-2. **Add Employee**
+3. **Add Employee**
    
    https://github.com/user-attachments/assets/263f4c71-a0a6-4c43-a4f4-383d2f80d4c4
 
-3.  **Error Hndling**
+4.  **Error Hndling**
    
     https://github.com/user-attachments/assets/331b7c53-c1ba-4f46-a1ee-65b2c8c99180
 
