@@ -79,48 +79,35 @@ A modern web application for managing employee records, built with Java EE techn
 1. Clone the repository
 2. Build with Maven: `mvn clean package`
 3. Deploy WAR file to Payara
-4. Access at: `http://localhost:8080/ems`
+4. Access at: `http://localhost:8080/ems
 
 ## Application Walkthrough
-
-*(space for short demo videos)*
 
 1. **Employee Listing**  
    ![Employee List](https://example.com/employee-list.png)
 
-2. **Add Employee**  
-   ![Add Employee](https://example.com/add-employee.png)
+2. **Add Employee**
+   
+   https://github.com/user-attachments/assets/263f4c71-a0a6-4c43-a4f4-383d2f80d4c4
 
-3. **Edit Employee**  
-   ![Edit Employee](https://example.com/edit-employee.png)
+3.  **Error Hndling**
+   
+    https://github.com/user-attachments/assets/331b7c53-c1ba-4f46-a1ee-65b2c8c99180
 
-4. **Delete Confirmation**  
-   ![Delete Confirm](https://example.com/delete-confirm.png)
+5. **Edit Employee**
+     
+   [![Edit Employee](https://example.com/edit-employee.png)](https://github.com/user-attachments/assets/9a6e624c-f7d6-4630-9e36-ef917bca7432)
 
-## Project Structure
+7. **Delete Confirmation**
+   
+   https://github.com/user-attachments/assets/1e244917-ecba-49fa-af2a-94b5389b52ff
+
 
 ```
-ems/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/ems/employeemanagementsystem/
-│   │   │       ├── entities/Employee.java
-│   │   │       ├── services/DataService.java
-│   │   │       └── view/EmployeeView.java
-│   │   ├── resources/
-│   │   │   └── META-INF/persistence.xml
-│   │   └── webapp/
-│   │       ├── WEB-INF/web.xml
-│   │       └── pages/employee.xhtml
-├── pom.xml
-└── README.md
-```
-
 ## Key Components
 
 - **Employee Entity**: JPA entity mapping to database
-- **DataService**: Business logic and database operations
+- **DataService (DAO)**: Business logic and database operations
 - **EmployeeView**: Managed bean for UI interaction
 - **PrimeFaces UI**: XHTML pages with modern components
 
